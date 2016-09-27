@@ -5,7 +5,7 @@ defmodule Smoothie.Mixfile do
     [
       app: :smoothie,
       version: "1.0.1",
-      elixir: "~> 1.3",
+      elixir: "~> 1.2",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
       description: """
